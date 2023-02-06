@@ -1,0 +1,11 @@
+// Vendors
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap';
+
+// Config
+@import 'config/variables';
+@import 'config/mixins';
+@import 'config/global';
+@import 'config/typography';
+
+// Components
+@import "../components/menu/menu";

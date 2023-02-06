@@ -1,0 +1,20 @@
+{% extends 'layout.njk' %}
+
+{% block title %}Document{% endblock %}
+
+{% block head %}
+  <meta name="description" content="">
+{% endblock %}
+
+{% block content %}
+  <section>
+    <h1>{{ icon('github') }}Lorem ipsum dolor sit amet.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis distinctio, doloremque excepturi inventore
+      iure molestias nesciunt qui quis rem similique! Aspernatur beatae consequuntur illo impedit magnam,
+      necessitatibus pariatur repudiandae similique.
+    </p>
+    <img src='{% static 'images/logo.png' %}' alt="">
+    <div class="box"></div>
+  </section>
+{% endblock %}

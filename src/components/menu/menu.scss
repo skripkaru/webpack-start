@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__item {
+
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}

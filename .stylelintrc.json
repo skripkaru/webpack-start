@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "single",
+    "rule-empty-line-before": "always",
+    "declaration-no-important": true,
+    "declaration-empty-line-before": "never"
+  }
+}

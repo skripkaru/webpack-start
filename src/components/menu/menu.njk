@@ -1,0 +1,23 @@
+{% macro menu() %}
+  {% set menuItems = [
+    {
+      "label": "Home",
+      "link": "#"
+    },
+    {
+      "label": "About",
+      "link": "#"
+    },
+    {
+      "label": "Contacts",
+      "link": "#"
+    }
+  ] %}
+	<ul class="menu">
+		{% for item in menuItems %}
+			<li class="menu__item">
+        <a href="{{ item.link }}" class="menu__link">{{ item.label }}</a>
+      </li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
